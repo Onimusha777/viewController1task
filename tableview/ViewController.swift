@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
-    var mark = Car.markName
-    var model = Car.modelName
-    var image = Car.imageName
+    var mark = ""
+    var model = ""
+    var image = ""
     
     
 

@@ -83,7 +83,7 @@ class TableViewController: UITableViewController {
         
         detailVc.mark = arrayCars[indexPath.row].markName
         detailVc.model = arrayCars[indexPath.row].modelName
-        detailVc.imageName = arrayCars[indexPath.row].imageName
+        detailVc.image = arrayCars[indexPath.row].imageName
         
         
         navigationController?.show(detailVc, sender: self)
